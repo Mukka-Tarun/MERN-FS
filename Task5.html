@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task5</title>
+    <style>
+        td,th {
+            padding:1vh;
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        table {
+            width: 800px;
+            border: 1px solid black;
+            border-spacing: 3px;
+            border-collapse: collapse;
+        }
+        
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="number"],
+        textarea,
+        select {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: blue; white-space: pre; margin-left: 250px;">Registration Form</h1>
+    <form>
+        <table>
+            <tr>
+                <th><label for="first_name">First Name:</label></th>
+                <td><input type="text" id="first_name" name="first_name"></td>
+            </tr>
+            <tr>
+                <th>Last Name</th>
+                <td><input type="text" id=""></td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td><input type="email" id=""></td>
+            </tr>
+            <tr>
+                <th>Password</th>
+                <td><input type="password" id=""></td>
+            </tr>
+            <tr>
+                <th>Re-enter Password</th>
+                <td><input type="password" id=""></td>
+            </tr>
+            <tr>
+                <th>Gender:</th>
+                <td>
+                    <input type="radio" name="gen" id=""/>Male
+                    <br>
+                    <input type="radio" name="gen" id=""/>Female
+                </td>
+            </tr>
+            <tr>
+                <th>Age:</th>
+                <td><input type="text" id=""></td>
+            </tr>
+            <tr>
+                <th>Phone Number</th>
+                <td><input type="text" id=""></td>
+            </tr>
+            <tr>
+                <th>Address</th>
+                <td><textarea name="" id="" cols="45" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <th>State</th>
+                <td><input type="text" id=""></td>  
+            </tr>
+            <tr>
+                <th>Country</th>
+                <td><select name="" id="">
+                    <option value="">Choose your country</option>
+                    <option value="">India</option>
+                    <option value="">New Zealand</option>
+                    <option value="">Australia</option>
+                    <option value="">Japan</option>
+                </select></td>
+            </tr>
+            <tr>
+                <th>Languages Known</th>
+                <td>
+                    <input type="checkbox" id="lang" name="lang" value="English">
+                    <label for="lang">English</label>
+                    <input type="checkbox" id="lang" name="lang" value="Kannada">
+                    <label for="lang">Kannada</label>
+                    <input type="checkbox" id="lang" name="lang" value="Hindi">
+                    <label for="lang">Hindi</label>
+                    <input type="checkbox" id="lang" name="lang" value="Telugu">
+                    <label for="lang">Telugu</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" id="confirm" name="confirm" value="yes">
+                    <label for="confirm">Hereby I declare all the given details are true</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <p style="text-align:right;">Log in to <a href="https://www.ethnus.com">Ethnus</a> website</p>
+                </td>
+            </tr>
+        </table>
+        <p style="white-space: pre;">
+            <button style="margin-left: 250px;">Register</button>
+        </p>
+    </form>
+</body>
+</html>
